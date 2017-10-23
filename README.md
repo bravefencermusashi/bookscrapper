@@ -1,5 +1,13 @@
 # bookscrapper
-Automatic download of it ebooks on allitebooks.com
+Automatic download of it ebooks on allitebooks
+
+## use
+
+usage: scrapbook.py  \[-h\] \[-q\] search \[search ...\]
+
+Main script is scrapbook.py. Add search keywords as arguments separated by spaces.
+eg : scrapbook.py python wsgi. Those search keywords will be concatenated to make a search on allitebooks.
+Use the -h option for help.
 
 ## configuration
 Configuration is in the conf.py file. Edit the scrapper dictionary to change the configuration.
