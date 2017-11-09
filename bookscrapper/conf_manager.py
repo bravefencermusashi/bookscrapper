@@ -21,7 +21,7 @@ def check_directory_and_create_on_request(path, desc=''):
     if not is_ok:
         if desc != '':
             desc = ' ({})'.format(desc)
-        print('the following directory must exist {}{} - check your configuration'.format(path, desc))
+        print('the following directory must exist {}{} - check and/or change your configuration'.format(path, desc))
     return is_ok
 
 
